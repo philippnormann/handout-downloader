@@ -13,7 +13,7 @@ Password:
 
 **Requires valid FH-Wedel credentials for authentication.**
 
-## Install
+## 1. Install
 
 A `requirements.txt` is provided to install all required packages using `pip`.
 
@@ -22,10 +22,10 @@ pip install -r requirements.txt
 ```
 
 
-## 2. Download
+## 2. Download directories
 
 ```bash
-./handout-download.py HANDOUT-SOURCE LOCAL-TARGET [--max-size MAX_SIZE]
+./handout-download.py source target [--max-size MAX_SIZE]
 ```
 The optional `MAX_SIZE` parameter specifies file size limit in MB and defaults to 128MB.
 
